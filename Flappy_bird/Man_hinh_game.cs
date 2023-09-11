@@ -19,6 +19,10 @@ namespace Flappy_bird
 
         public void Main()
         {
+            Random random = new Random()
+            Console.WriteLine("asdafaef");
+            Console.WriteLine("tri");
+=======
             Console.WriteLine("abcd");
         }
     }
