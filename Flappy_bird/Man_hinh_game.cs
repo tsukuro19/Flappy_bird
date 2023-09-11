@@ -20,6 +20,8 @@ namespace Flappy_bird
         private void Man_hinh_game_Load(object sender, EventArgs e)
         {
             Random random = new Random();
+            Console.WriteLine("abcd");
+            Console.WriteLine("asdafaef");
         }
     }
 }
