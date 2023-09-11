@@ -17,12 +17,13 @@ namespace Flappy_bird
             InitializeComponent();
         }
 
-        private void Man_hinh_game_Load(object sender, EventArgs e)
+        public void Main()
         {
-            Random random = new Random();
-            Console.WriteLine("abcd");
+            Random random = new Random()
             Console.WriteLine("asdafaef");
             Console.WriteLine("tri");
+=======
+            Console.WriteLine("abcd");
         }
     }
 }

@@ -37,7 +37,6 @@
             this.ClientSize = new System.Drawing.Size(838, 770);
             this.Name = "Man_hinh_game";
             this.Text = "Flappy Bird";
-            this.Load += new System.EventHandler(this.Man_hinh_game_Load);
             this.ResumeLayout(false);
 
         }
