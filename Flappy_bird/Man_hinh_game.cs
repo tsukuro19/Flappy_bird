@@ -22,6 +22,7 @@ namespace Flappy_bird
             Random random = new Random();
             Console.WriteLine("abcd");
             Console.WriteLine("asdafaef");
+            Console.WriteLine("tri");
         }
     }
 }
