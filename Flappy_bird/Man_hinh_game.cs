@@ -16,10 +16,5 @@ namespace Flappy_bird
         {
             InitializeComponent();
         }
-
-        public void Main()
-        {
-            Console.Write("Hello world");
-        }
     }
 }
