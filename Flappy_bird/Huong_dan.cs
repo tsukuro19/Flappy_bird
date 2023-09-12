@@ -26,7 +26,7 @@ namespace Flappy_bird
 
         private void Huong_dan_Load(object sender, EventArgs e)
         {
-            Console.WriteLine("Check");
+            Console.WriteLine("qưewr");
         }
     }
 }
