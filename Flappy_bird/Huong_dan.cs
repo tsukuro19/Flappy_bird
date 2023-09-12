@@ -23,5 +23,10 @@ namespace Flappy_bird
             man_hinh_menu.Show();
             this.Hide();
         }
+
+        private void Huong_dan_Load(object sender, EventArgs e)
+        {
+            Console.WriteLine("Check");
+        }
     }
 }
