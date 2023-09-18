@@ -22,6 +22,7 @@ namespace Flappy_bird
             Random random = new Random();
             int n;
             int m;
+            int k;
         }
     }
 }
