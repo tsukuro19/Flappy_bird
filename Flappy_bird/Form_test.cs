@@ -16,5 +16,11 @@ namespace Flappy_bird
         {
             InitializeComponent();
         }
+
+
+        public void Write_test()
+        {
+            Console.WriteLine("abcd");
+        }
     }
 }
