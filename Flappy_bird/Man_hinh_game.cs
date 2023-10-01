@@ -17,12 +17,13 @@ namespace Flappy_bird
         //gravity la do roi cua chim
         int gravity = 5;
         int score = 0;
+
+        bool gameOver = false;
         public Man_hinh_game()
         {
             InitializeComponent();
+            RestartGame();
         }
-
-
 
         private void Dong_man_hinh_game(object sender, FormClosingEventArgs e)
         {
@@ -84,12 +85,47 @@ namespace Flappy_bird
             {
                 gravity = 5;
             }
+            if(e.KeyCode == Keys.R && gameOver)
+            {
+                RestartGame();
+            }
         }
 
         private void End_game()
         {
             Thoi_gian_cua_ong.Stop();
             MessageBox.Show("Bạn đã thua số điểm bạn ghi được là " + score.ToString());
+            DialogResult dr = MessageBox.Show("Bạn có muốn chơi lại ?", "YES/NO", MessageBoxButtons.YesNo);
+            if (dr == DialogResult.Yes)
+            {
+                gameOver = true;
+                Nut_Restart.Enabled = true;
+                Nut_Restart.Visible = true; 
+            }
+            else
+            {
+                Close();
+            }
+        }
+
+        private void RestartGame()
+        {
+            gameOver = false;
+            pic_Bird.Location = new Point(179, 250);
+            pic_Ong_tren.Left = 800;
+            pic_Ong_duoi.Left = 1200;
+
+            score = 0;
+            toc_do_ong = 8;
+            score_text.Text = "Score: 0";
+            Thoi_gian_cua_ong.Start();
+            Nut_Restart.Enabled = false;
+            Nut_Restart.Visible = false;
+        }
+
+        private void RestartClickEvent(object sender, EventArgs e)
+        {
+            RestartGame();
         }
     }
 }

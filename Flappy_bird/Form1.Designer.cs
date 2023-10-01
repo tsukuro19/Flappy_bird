@@ -71,6 +71,7 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Flappy Bird";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Dong_man_hinh_game);
+            this.Load += new System.EventHandler(this.Man_hinh_menu_Load);
             this.ResumeLayout(false);
 
         }

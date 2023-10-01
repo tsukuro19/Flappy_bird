@@ -37,5 +37,10 @@ namespace Flappy_bird
         {
            Application.Exit();
         }
+
+        private void Man_hinh_menu_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
