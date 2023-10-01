@@ -29,16 +29,19 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Man_hinh_game));
             this.pic_Bird = new System.Windows.Forms.PictureBox();
             this.pic_Nen_dat = new System.Windows.Forms.PictureBox();
             this.pic_Ong_tren = new System.Windows.Forms.PictureBox();
             this.pic_Ong_duoi = new System.Windows.Forms.PictureBox();
             this.score_text = new System.Windows.Forms.Label();
             this.Thoi_gian_cua_ong = new System.Windows.Forms.Timer(this.components);
+            this.Nut_Restart = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pic_Bird)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pic_Nen_dat)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pic_Ong_tren)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pic_Ong_duoi)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Nut_Restart)).BeginInit();
             this.SuspendLayout();
             // 
             // pic_Bird
@@ -100,6 +103,17 @@
             this.Thoi_gian_cua_ong.Interval = 20;
             this.Thoi_gian_cua_ong.Tick += new System.EventHandler(this.Game_timer_event);
             // 
+            // Nut_Restart
+            // 
+            this.Nut_Restart.Image = ((System.Drawing.Image)(resources.GetObject("Nut_Restart.Image")));
+            this.Nut_Restart.Location = new System.Drawing.Point(321, 170);
+            this.Nut_Restart.Name = "Nut_Restart";
+            this.Nut_Restart.Size = new System.Drawing.Size(185, 185);
+            this.Nut_Restart.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.Nut_Restart.TabIndex = 5;
+            this.Nut_Restart.TabStop = false;
+            this.Nut_Restart.Click += new System.EventHandler(this.RestartClickEvent);
+            // 
             // Man_hinh_game
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -107,6 +121,7 @@
             this.BackgroundImage = global::Flappy_bird.Properties.Resources.pxfuel;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(838, 770);
+            this.Controls.Add(this.Nut_Restart);
             this.Controls.Add(this.score_text);
             this.Controls.Add(this.pic_Ong_duoi);
             this.Controls.Add(this.pic_Ong_tren);
@@ -122,6 +137,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pic_Nen_dat)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pic_Ong_tren)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pic_Ong_duoi)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Nut_Restart)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -134,5 +150,6 @@
         private System.Windows.Forms.PictureBox pic_Ong_duoi;
         private System.Windows.Forms.Label score_text;
         private System.Windows.Forms.Timer Thoi_gian_cua_ong;
+        private System.Windows.Forms.PictureBox Nut_Restart;
     }
 }
