@@ -18,6 +18,8 @@ namespace Flappy_bird
         public Man_hinh_menu()
         {
             InitializeComponent();
+            player.settings.setMode("loop", true);
+            player.settings.volume = 100;
             player.URL = @"D:\laptrinhwindow\Flappy_bird\Flappy_bird\y2mate.com - Flappy Bird Theme Song.mp3";
             player.controls.play();
         }
