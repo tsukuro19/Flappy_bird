@@ -160,7 +160,9 @@ namespace Flappy_bird
             }
             else
             {
-                Close();
+                Man_hinh_menu man_hinh_menu = new Man_hinh_menu();
+                man_hinh_menu.Show();
+                this.Hide();
             }
             
 

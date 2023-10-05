@@ -1,4 +1,5 @@
-﻿    using System;
+
+ using System;
     using System.Collections.Generic;
     using System.ComponentModel;
     using System.Data;
@@ -8,16 +9,26 @@
     using System.Threading.Tasks;
     using System.Windows.Forms;
 
-    namespace Flappy_bird
+namespace Flappy_bird
+{
+    public partial class Man_hinh_menu : Form
     {
-        public partial class Man_hinh_menu : Form
-        {
-            // biến để lưu cấp độ
+        // biến để lưu cấp độ
             private int capDoGame;
             // Biến để lưu tên
             private string playerName;
             // biến này tạo ra để đếm người chơi nếu không đặt tên
             private int player = 1;
+        WindowsMediaPlayer player=new WindowsMediaPlayer();
+        public Man_hinh_menu()
+        {
+            InitializeComponent();
+            player.settings.setMode("loop", true);
+            player.settings.volume = 100;
+            player.URL = @"D:\laptrinhwindow\Flappy_bird\Flappy_bird\y2mate.com - Flappy Bird Theme Song.mp3";
+            player.controls.play();
+        }
+
 
         public string PlayerName
         {
@@ -90,6 +101,7 @@
 
         private void btnBangXephang_Click(object sender, EventArgs e)
         {
+
             List<string> players = new List<string>();
             players.Add(playerName + ": " + score.ToString());
 
@@ -109,6 +121,7 @@
             }
 
             MessageBox.Show(sb.ToString());
+
         }
     }
     }
