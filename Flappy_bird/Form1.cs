@@ -7,14 +7,19 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Media;
+using WMPLib;
 
 namespace Flappy_bird
 {
     public partial class Man_hinh_menu : Form
     {
+        WindowsMediaPlayer player=new WindowsMediaPlayer();
         public Man_hinh_menu()
         {
             InitializeComponent();
+            player.URL = @"D:\laptrinhwindow\Flappy_bird\Flappy_bird\y2mate.com - Flappy Bird Theme Song.mp3";
+            player.controls.play();
         }
 
         //Ham nay giup load form man hinh tro choi
@@ -40,7 +45,7 @@ namespace Flappy_bird
 
         private void Man_hinh_menu_Load(object sender, EventArgs e)
         {
-
+            
         }
     }
 }
