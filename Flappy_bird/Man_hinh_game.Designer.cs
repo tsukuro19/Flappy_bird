@@ -48,9 +48,10 @@
             // 
             this.pic_Bird.BackColor = System.Drawing.Color.Transparent;
             this.pic_Bird.Image = global::Flappy_bird.Properties.Resources._3933c213d43ed004e381fefdb9ec0605_w200;
-            this.pic_Bird.Location = new System.Drawing.Point(179, 250);
+            this.pic_Bird.Location = new System.Drawing.Point(201, 312);
+            this.pic_Bird.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.pic_Bird.Name = "pic_Bird";
-            this.pic_Bird.Size = new System.Drawing.Size(51, 50);
+            this.pic_Bird.Size = new System.Drawing.Size(57, 62);
             this.pic_Bird.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pic_Bird.TabIndex = 0;
             this.pic_Bird.TabStop = false;
@@ -58,9 +59,10 @@
             // pic_Nen_dat
             // 
             this.pic_Nen_dat.Image = global::Flappy_bird.Properties.Resources.ground;
-            this.pic_Nen_dat.Location = new System.Drawing.Point(-2, 614);
+            this.pic_Nen_dat.Location = new System.Drawing.Point(-2, 768);
+            this.pic_Nen_dat.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.pic_Nen_dat.Name = "pic_Nen_dat";
-            this.pic_Nen_dat.Size = new System.Drawing.Size(841, 70);
+            this.pic_Nen_dat.Size = new System.Drawing.Size(946, 88);
             this.pic_Nen_dat.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pic_Nen_dat.TabIndex = 1;
             this.pic_Nen_dat.TabStop = false;
@@ -69,9 +71,10 @@
             // 
             this.pic_Ong_tren.BackColor = System.Drawing.Color.Transparent;
             this.pic_Ong_tren.Image = global::Flappy_bird.Properties.Resources.pipedown;
-            this.pic_Ong_tren.Location = new System.Drawing.Point(646, 0);
+            this.pic_Ong_tren.Location = new System.Drawing.Point(727, 0);
+            this.pic_Ong_tren.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.pic_Ong_tren.Name = "pic_Ong_tren";
-            this.pic_Ong_tren.Size = new System.Drawing.Size(100, 186);
+            this.pic_Ong_tren.Size = new System.Drawing.Size(112, 232);
             this.pic_Ong_tren.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pic_Ong_tren.TabIndex = 2;
             this.pic_Ong_tren.TabStop = false;
@@ -80,9 +83,10 @@
             // 
             this.pic_Ong_duoi.BackColor = System.Drawing.Color.Transparent;
             this.pic_Ong_duoi.Image = global::Flappy_bird.Properties.Resources.pipe;
-            this.pic_Ong_duoi.Location = new System.Drawing.Point(484, 393);
+            this.pic_Ong_duoi.Location = new System.Drawing.Point(544, 491);
+            this.pic_Ong_duoi.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.pic_Ong_duoi.Name = "pic_Ong_duoi";
-            this.pic_Ong_duoi.Size = new System.Drawing.Size(100, 223);
+            this.pic_Ong_duoi.Size = new System.Drawing.Size(112, 279);
             this.pic_Ong_duoi.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pic_Ong_duoi.TabIndex = 3;
             this.pic_Ong_duoi.TabStop = false;
@@ -91,9 +95,9 @@
             // 
             this.score_text.BackColor = System.Drawing.Color.Transparent;
             this.score_text.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.score_text.Location = new System.Drawing.Point(12, 9);
+            this.score_text.Location = new System.Drawing.Point(2, 0);
             this.score_text.Name = "score_text";
-            this.score_text.Size = new System.Drawing.Size(171, 48);
+            this.score_text.Size = new System.Drawing.Size(192, 60);
             this.score_text.TabIndex = 4;
             this.score_text.Text = "Score: 0";
             // 
@@ -106,9 +110,10 @@
             // Nut_Restart
             // 
             this.Nut_Restart.Image = ((System.Drawing.Image)(resources.GetObject("Nut_Restart.Image")));
-            this.Nut_Restart.Location = new System.Drawing.Point(321, 170);
+            this.Nut_Restart.Location = new System.Drawing.Point(361, 212);
+            this.Nut_Restart.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Nut_Restart.Name = "Nut_Restart";
-            this.Nut_Restart.Size = new System.Drawing.Size(185, 185);
+            this.Nut_Restart.Size = new System.Drawing.Size(208, 231);
             this.Nut_Restart.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.Nut_Restart.TabIndex = 5;
             this.Nut_Restart.TabStop = false;
@@ -116,21 +121,23 @@
             // 
             // Man_hinh_game
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::Flappy_bird.Properties.Resources.pxfuel;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(838, 770);
-            this.Controls.Add(this.Nut_Restart);
+            this.ClientSize = new System.Drawing.Size(943, 962);
             this.Controls.Add(this.score_text);
+            this.Controls.Add(this.Nut_Restart);
             this.Controls.Add(this.pic_Ong_duoi);
             this.Controls.Add(this.pic_Ong_tren);
             this.Controls.Add(this.pic_Nen_dat);
             this.Controls.Add(this.pic_Bird);
+            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "Man_hinh_game";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Flappy Bird";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Dong_man_hinh_game);
+            this.Load += new System.EventHandler(this.Man_hinh_game_Load);
             this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Game_key_is_down);
             this.KeyUp += new System.Windows.Forms.KeyEventHandler(this.Game_key_is_up);
             ((System.ComponentModel.ISupportInitialize)(this.pic_Bird)).EndInit();
