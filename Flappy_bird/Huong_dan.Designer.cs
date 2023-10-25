@@ -29,54 +29,59 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Huong_dan));
-            this.label1 = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.tutorial_label = new System.Windows.Forms.Label();
+            this.pic_tutorial = new System.Windows.Forms.PictureBox();
+            this.pic_back = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pic_tutorial)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pic_back)).BeginInit();
             this.SuspendLayout();
             // 
-            // label1
+            // tutorial_label
             // 
-            this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(146, 105);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(497, 333);
-            this.label1.TabIndex = 0;
-            this.label1.Text = resources.GetString("label1.Text");
+            resources.ApplyResources(this.tutorial_label, "tutorial_label");
+            this.tutorial_label.BackColor = System.Drawing.Color.Transparent;
+            this.tutorial_label.Name = "tutorial_label";
             // 
-            // pictureBox1
+            // pic_tutorial
             // 
-            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox1.Image = global::Flappy_bird.Properties.Resources._3933c213d43ed004e381fefdb9ec0605_w200;
-            this.pictureBox1.Location = new System.Drawing.Point(331, 466);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(100, 84);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 1;
-            this.pictureBox1.TabStop = false;
+            resources.ApplyResources(this.pic_tutorial, "pic_tutorial");
+            this.pic_tutorial.BackColor = System.Drawing.Color.Transparent;
+            this.pic_tutorial.Image = global::Flappy_bird.Properties.Resources._3933c213d43ed004e381fefdb9ec0605_w200;
+            this.pic_tutorial.Name = "pic_tutorial";
+            this.pic_tutorial.TabStop = false;
+            // 
+            // pic_back
+            // 
+            resources.ApplyResources(this.pic_back, "pic_back");
+            this.pic_back.BackColor = System.Drawing.Color.Transparent;
+            this.pic_back.Image = global::Flappy_bird.Properties.Resources.icons8_back_48;
+            this.pic_back.Name = "pic_back";
+            this.pic_back.TabStop = false;
+            this.pic_back.Click += new System.EventHandler(this.pic_back_Click_1);
             // 
             // Huong_dan
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::Flappy_bird.Properties.Resources.pxfuel;
-            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(838, 770);
-            this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.pic_back);
+            this.Controls.Add(this.pic_tutorial);
+            this.Controls.Add(this.tutorial_label);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Huong_dan";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Hướng dẫn";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Return_start_menu);
             this.Load += new System.EventHandler(this.Huong_dan_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pic_tutorial)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pic_back)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
         #endregion
 
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Label tutorial_label;
+        private System.Windows.Forms.PictureBox pic_tutorial;
+        private System.Windows.Forms.PictureBox pic_back;
     }
 }

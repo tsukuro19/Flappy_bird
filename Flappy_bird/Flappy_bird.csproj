@@ -72,8 +72,26 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Return.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Return.Designer.cs">
+      <DependentUpon>Return.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Setting.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Setting.Designer.cs">
+      <DependentUpon>Setting.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Form1.en-US.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Huong_dan.en-US.resx">
+      <DependentUpon>Huong_dan.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Huong_dan.resx">
       <DependentUpon>Huong_dan.cs</DependentUpon>
@@ -82,7 +100,7 @@
       <DependentUpon>Man_hinh_game.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
-      <Generator>ResXFileCodeGenerator</Generator>
+      <Generator>PublicResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
     </EmbeddedResource>
@@ -91,6 +109,15 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="Return.resx">
+      <DependentUpon>Return.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setting.en-US.resx">
+      <DependentUpon>Setting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setting.resx">
+      <DependentUpon>Setting.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -129,9 +156,29 @@
     <None Include="Resources\ground.png" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Resources\background_music.wav" />
+    <Content Include="Resources\Button_click.wav" />
+    <None Include="Resources\icons8-close-48.png" />
+    <None Include="Resources\icons8-screen-48.png" />
+    <None Include="Resources\icons8-back-100.png" />
+    <None Include="Resources\icons8-back-48.png" />
+    <None Include="Resources\life.png" />
+    <None Include="Resources\life_white.png" />
+    <Content Include="Resources\sound_off.png" />
+    <None Include="Resources\sound_off1.png" />
+    <Content Include="Resources\sound_on.png" />
+    <None Include="Resources\sound_on1.png" />
     <Content Include="y2mate.com - Flappy Bird Theme Song.mp3" />
   </ItemGroup>
   <ItemGroup>
+    <COMReference Include="AxWMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
     <COMReference Include="WMPLib">
       <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
       <VersionMajor>1</VersionMajor>
