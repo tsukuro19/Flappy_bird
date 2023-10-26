@@ -36,74 +36,71 @@
             this.pic_Ong_duoi = new System.Windows.Forms.PictureBox();
             this.score_text = new System.Windows.Forms.Label();
             this.Thoi_gian_cua_ong = new System.Windows.Forms.Timer(this.components);
-            this.Nut_Restart = new System.Windows.Forms.PictureBox();
             this.life_1 = new System.Windows.Forms.PictureBox();
             this.life_2 = new System.Windows.Forms.PictureBox();
             this.life_3 = new System.Windows.Forms.PictureBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.pic_enemy = new System.Windows.Forms.PictureBox();
+            this.Game_lose = new System.Windows.Forms.GroupBox();
+            this.pic_home = new System.Windows.Forms.PictureBox();
+            this.pic_replay = new System.Windows.Forms.PictureBox();
+            this.lb_high_score_lose = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.lb_score_lose = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.lb_high_score = new System.Windows.Forms.Label();
+            this.label_high_score_store = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pic_Bird)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pic_Nen_dat)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pic_Ong_tren)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pic_Ong_duoi)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Nut_Restart)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.life_1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.life_2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.life_3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pic_enemy)).BeginInit();
+            this.Game_lose.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pic_home)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pic_replay)).BeginInit();
             this.SuspendLayout();
             // 
             // pic_Bird
             // 
             this.pic_Bird.BackColor = System.Drawing.Color.Transparent;
             this.pic_Bird.Image = global::Flappy_bird.Properties.Resources._3933c213d43ed004e381fefdb9ec0605_w200;
-            this.pic_Bird.Location = new System.Drawing.Point(179, 250);
+            resources.ApplyResources(this.pic_Bird, "pic_Bird");
             this.pic_Bird.Name = "pic_Bird";
-            this.pic_Bird.Size = new System.Drawing.Size(51, 50);
-            this.pic_Bird.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pic_Bird.TabIndex = 0;
             this.pic_Bird.TabStop = false;
             // 
             // pic_Nen_dat
             // 
+            resources.ApplyResources(this.pic_Nen_dat, "pic_Nen_dat");
             this.pic_Nen_dat.Image = global::Flappy_bird.Properties.Resources.ground;
-            this.pic_Nen_dat.Location = new System.Drawing.Point(-2, 561);
             this.pic_Nen_dat.Name = "pic_Nen_dat";
-            this.pic_Nen_dat.Size = new System.Drawing.Size(841, 123);
-            this.pic_Nen_dat.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pic_Nen_dat.TabIndex = 1;
             this.pic_Nen_dat.TabStop = false;
             // 
             // pic_Ong_tren
             // 
+            resources.ApplyResources(this.pic_Ong_tren, "pic_Ong_tren");
             this.pic_Ong_tren.BackColor = System.Drawing.Color.Transparent;
             this.pic_Ong_tren.Image = global::Flappy_bird.Properties.Resources.pipedown;
-            this.pic_Ong_tren.Location = new System.Drawing.Point(646, 0);
             this.pic_Ong_tren.Name = "pic_Ong_tren";
-            this.pic_Ong_tren.Size = new System.Drawing.Size(100, 186);
-            this.pic_Ong_tren.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pic_Ong_tren.TabIndex = 2;
             this.pic_Ong_tren.TabStop = false;
             // 
             // pic_Ong_duoi
             // 
+            resources.ApplyResources(this.pic_Ong_duoi, "pic_Ong_duoi");
             this.pic_Ong_duoi.BackColor = System.Drawing.Color.Transparent;
             this.pic_Ong_duoi.Image = global::Flappy_bird.Properties.Resources.pipe;
-            this.pic_Ong_duoi.Location = new System.Drawing.Point(537, 343);
             this.pic_Ong_duoi.Name = "pic_Ong_duoi";
-            this.pic_Ong_duoi.Size = new System.Drawing.Size(100, 223);
-            this.pic_Ong_duoi.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pic_Ong_duoi.TabIndex = 3;
             this.pic_Ong_duoi.TabStop = false;
             // 
             // score_text
             // 
+            resources.ApplyResources(this.score_text, "score_text");
             this.score_text.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(220)))), ((int)(((byte)(148)))));
-            this.score_text.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.score_text.Location = new System.Drawing.Point(12, 590);
             this.score_text.Name = "score_text";
-            this.score_text.Size = new System.Drawing.Size(171, 48);
-            this.score_text.TabIndex = 4;
-            this.score_text.Text = "Score: 0";
             // 
             // Thoi_gian_cua_ong
             // 
@@ -111,82 +108,131 @@
             this.Thoi_gian_cua_ong.Interval = 20;
             this.Thoi_gian_cua_ong.Tick += new System.EventHandler(this.Game_timer_event);
             // 
-            // Nut_Restart
-            // 
-            this.Nut_Restart.Image = ((System.Drawing.Image)(resources.GetObject("Nut_Restart.Image")));
-            this.Nut_Restart.Location = new System.Drawing.Point(321, 170);
-            this.Nut_Restart.Name = "Nut_Restart";
-            this.Nut_Restart.Size = new System.Drawing.Size(185, 185);
-            this.Nut_Restart.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.Nut_Restart.TabIndex = 5;
-            this.Nut_Restart.TabStop = false;
-            this.Nut_Restart.Click += new System.EventHandler(this.RestartClickEvent);
-            // 
             // life_1
             // 
             this.life_1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(220)))), ((int)(((byte)(148)))));
             this.life_1.Image = global::Flappy_bird.Properties.Resources.life;
-            this.life_1.Location = new System.Drawing.Point(579, 606);
+            resources.ApplyResources(this.life_1, "life_1");
             this.life_1.Name = "life_1";
-            this.life_1.Size = new System.Drawing.Size(32, 32);
-            this.life_1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
-            this.life_1.TabIndex = 6;
             this.life_1.TabStop = false;
             // 
             // life_2
             // 
             this.life_2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(220)))), ((int)(((byte)(148)))));
             this.life_2.Image = global::Flappy_bird.Properties.Resources.life;
-            this.life_2.Location = new System.Drawing.Point(617, 606);
+            resources.ApplyResources(this.life_2, "life_2");
             this.life_2.Name = "life_2";
-            this.life_2.Size = new System.Drawing.Size(32, 32);
-            this.life_2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
-            this.life_2.TabIndex = 7;
             this.life_2.TabStop = false;
             // 
             // life_3
             // 
             this.life_3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(220)))), ((int)(((byte)(148)))));
             this.life_3.Image = global::Flappy_bird.Properties.Resources.life;
-            this.life_3.Location = new System.Drawing.Point(655, 606);
+            resources.ApplyResources(this.life_3, "life_3");
             this.life_3.Name = "life_3";
-            this.life_3.Size = new System.Drawing.Size(32, 32);
-            this.life_3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
-            this.life_3.TabIndex = 8;
             this.life_3.TabStop = false;
             // 
-            // pictureBox1
+            // panel1
             // 
-            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox1.Image = global::Flappy_bird.Properties.Resources._3933c213d43ed004e381fefdb9ec0605_w200;
-            this.pictureBox1.Location = new System.Drawing.Point(179, 250);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(51, 50);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
+            resources.ApplyResources(this.panel1, "panel1");
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(220)))), ((int)(((byte)(148)))));
+            this.panel1.Controls.Add(this.life_1);
+            this.panel1.Controls.Add(this.life_3);
+            this.panel1.Controls.Add(this.life_2);
+            this.panel1.Name = "panel1";
+            // 
+            // pic_enemy
+            // 
+            this.pic_enemy.BackColor = System.Drawing.Color.Transparent;
+            this.pic_enemy.Image = global::Flappy_bird.Properties.Resources.ezgif_4_dae19659ba;
+            resources.ApplyResources(this.pic_enemy, "pic_enemy");
+            this.pic_enemy.Name = "pic_enemy";
+            this.pic_enemy.TabStop = false;
+            // 
+            // Game_lose
+            // 
+            resources.ApplyResources(this.Game_lose, "Game_lose");
+            this.Game_lose.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(220)))), ((int)(((byte)(148)))));
+            this.Game_lose.Controls.Add(this.pic_home);
+            this.Game_lose.Controls.Add(this.pic_replay);
+            this.Game_lose.Controls.Add(this.lb_high_score_lose);
+            this.Game_lose.Controls.Add(this.label3);
+            this.Game_lose.Controls.Add(this.lb_score_lose);
+            this.Game_lose.Controls.Add(this.label2);
+            this.Game_lose.Controls.Add(this.label1);
+            this.Game_lose.Name = "Game_lose";
+            this.Game_lose.TabStop = false;
+            // 
+            // pic_home
+            // 
+            this.pic_home.Image = global::Flappy_bird.Properties.Resources.icons8_home_96;
+            resources.ApplyResources(this.pic_home, "pic_home");
+            this.pic_home.Name = "pic_home";
+            this.pic_home.TabStop = false;
+            this.pic_home.Click += new System.EventHandler(this.pic_home_Click);
+            // 
+            // pic_replay
+            // 
+            this.pic_replay.Image = global::Flappy_bird.Properties.Resources.icons8_restart_96;
+            resources.ApplyResources(this.pic_replay, "pic_replay");
+            this.pic_replay.Name = "pic_replay";
+            this.pic_replay.TabStop = false;
+            this.pic_replay.Click += new System.EventHandler(this.pic_replay_Click);
+            // 
+            // lb_high_score_lose
+            // 
+            resources.ApplyResources(this.lb_high_score_lose, "lb_high_score_lose");
+            this.lb_high_score_lose.Name = "lb_high_score_lose";
+            // 
+            // label3
+            // 
+            resources.ApplyResources(this.label3, "label3");
+            this.label3.Name = "label3";
+            // 
+            // lb_score_lose
+            // 
+            resources.ApplyResources(this.lb_score_lose, "lb_score_lose");
+            this.lb_score_lose.Name = "lb_score_lose";
+            // 
+            // label2
+            // 
+            resources.ApplyResources(this.label2, "label2");
+            this.label2.Name = "label2";
+            // 
+            // label1
+            // 
+            resources.ApplyResources(this.label1, "label1");
+            this.label1.Name = "label1";
+            // 
+            // lb_high_score
+            // 
+            resources.ApplyResources(this.lb_high_score, "lb_high_score");
+            this.lb_high_score.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(220)))), ((int)(((byte)(148)))));
+            this.lb_high_score.Name = "lb_high_score";
+            // 
+            // label_high_score_store
+            // 
+            resources.ApplyResources(this.label_high_score_store, "label_high_score_store");
+            this.label_high_score_store.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(220)))), ((int)(((byte)(148)))));
+            this.label_high_score_store.Name = "label_high_score_store";
             // 
             // Man_hinh_game
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::Flappy_bird.Properties.Resources.pxfuel;
-            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(838, 770);
-            this.Controls.Add(this.life_3);
-            this.Controls.Add(this.life_2);
-            this.Controls.Add(this.life_1);
+            this.Controls.Add(this.label_high_score_store);
+            this.Controls.Add(this.lb_high_score);
+            this.Controls.Add(this.Game_lose);
+            this.Controls.Add(this.pic_enemy);
+            this.Controls.Add(this.panel1);
             this.Controls.Add(this.score_text);
-            this.Controls.Add(this.Nut_Restart);
             this.Controls.Add(this.pic_Ong_duoi);
             this.Controls.Add(this.pic_Ong_tren);
             this.Controls.Add(this.pic_Nen_dat);
-            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.pic_Bird);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Man_hinh_game";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Flappy Bird";
-            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Dong_man_hinh_game);
             this.Load += new System.EventHandler(this.Man_hinh_game_Load);
             this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Game_key_is_down);
             this.KeyUp += new System.Windows.Forms.KeyEventHandler(this.Game_key_is_up);
@@ -194,13 +240,17 @@
             ((System.ComponentModel.ISupportInitialize)(this.pic_Nen_dat)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pic_Ong_tren)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pic_Ong_duoi)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Nut_Restart)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.life_1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.life_2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.life_3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pic_enemy)).EndInit();
+            this.Game_lose.ResumeLayout(false);
+            this.Game_lose.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pic_home)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pic_replay)).EndInit();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
@@ -212,10 +262,20 @@
         private System.Windows.Forms.PictureBox pic_Ong_duoi;
         private System.Windows.Forms.Label score_text;
         private System.Windows.Forms.Timer Thoi_gian_cua_ong;
-        private System.Windows.Forms.PictureBox Nut_Restart;
         private System.Windows.Forms.PictureBox life_1;
         private System.Windows.Forms.PictureBox life_2;
         private System.Windows.Forms.PictureBox life_3;
-        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.PictureBox pic_enemy;
+        private System.Windows.Forms.GroupBox Game_lose;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label lb_score_lose;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label lb_high_score_lose;
+        private System.Windows.Forms.PictureBox pic_replay;
+        private System.Windows.Forms.PictureBox pic_home;
+        private System.Windows.Forms.Label lb_high_score;
+        private System.Windows.Forms.Label label_high_score_store;
     }
 }

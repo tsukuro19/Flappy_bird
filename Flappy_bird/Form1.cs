@@ -103,8 +103,8 @@ namespace Flappy_bird
         private void Load_game(object sender, EventArgs e)
         {
             Button_click();
+            wplayer.controls.pause();
             Man_hinh_game man_Hinh_Game = new Man_hinh_game();
-            man_Hinh_Game.PlayerName = playerName;
             man_Hinh_Game.CapDoGame = capDoGame;
             man_Hinh_Game.Show();
             this.Hide();

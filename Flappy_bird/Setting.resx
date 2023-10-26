@@ -240,9 +240,6 @@
   <data name="cb_screen.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
   </data>
-  <data name="$this.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
   <data name="&gt;&gt;btn_sound.ZOrder" xml:space="preserve">
     <value>4</value>
   </data>

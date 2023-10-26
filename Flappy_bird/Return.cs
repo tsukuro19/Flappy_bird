@@ -16,5 +16,19 @@ namespace Flappy_bird
         {
             InitializeComponent();
         }
+
+        private void pic_home_Click(object sender, EventArgs e)
+        {
+            Man_hinh_menu menu = new Man_hinh_menu();
+            menu.Show();
+            this.Hide();
+        }
+
+        private void pic_replay_Click(object sender, EventArgs e)
+        {
+            Man_hinh_game game = new Man_hinh_game();
+            game.Show();
+            this.Hide();
+        }
     }
 }

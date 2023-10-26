@@ -117,110 +117,691 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="pic_Bird.Location" type="System.Drawing.Point, System.Drawing">
+    <value>18, 225</value>
+  </data>
+  <data name="pic_Bird.Size" type="System.Drawing.Size, System.Drawing">
+    <value>51, 50</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="pic_Bird.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>StretchImage</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="pic_Bird.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;pic_Bird.Name" xml:space="preserve">
+    <value>pic_Bird</value>
+  </data>
+  <data name="&gt;&gt;pic_Bird.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pic_Bird.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;pic_Bird.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="pic_Nen_dat.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left, Right</value>
+  </data>
+  <data name="pic_Nen_dat.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-2, 561</value>
+  </data>
+  <data name="pic_Nen_dat.Size" type="System.Drawing.Size, System.Drawing">
+    <value>841, 123</value>
+  </data>
+  <data name="pic_Nen_dat.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>StretchImage</value>
+  </data>
+  <data name="pic_Nen_dat.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;pic_Nen_dat.Name" xml:space="preserve">
+    <value>pic_Nen_dat</value>
+  </data>
+  <data name="&gt;&gt;pic_Nen_dat.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pic_Nen_dat.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;pic_Nen_dat.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="pic_Ong_tren.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="pic_Ong_tren.Location" type="System.Drawing.Point, System.Drawing">
+    <value>646, 0</value>
+  </data>
+  <data name="pic_Ong_tren.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 186</value>
+  </data>
+  <data name="pic_Ong_tren.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>StretchImage</value>
+  </data>
+  <data name="pic_Ong_tren.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;pic_Ong_tren.Name" xml:space="preserve">
+    <value>pic_Ong_tren</value>
+  </data>
+  <data name="&gt;&gt;pic_Ong_tren.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pic_Ong_tren.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;pic_Ong_tren.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="pic_Ong_duoi.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom</value>
+  </data>
+  <data name="pic_Ong_duoi.Location" type="System.Drawing.Point, System.Drawing">
+    <value>537, 343</value>
+  </data>
+  <data name="pic_Ong_duoi.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 223</value>
+  </data>
+  <data name="pic_Ong_duoi.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>StretchImage</value>
+  </data>
+  <data name="pic_Ong_duoi.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;pic_Ong_duoi.Name" xml:space="preserve">
+    <value>pic_Ong_duoi</value>
+  </data>
+  <data name="&gt;&gt;pic_Ong_duoi.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pic_Ong_duoi.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;pic_Ong_duoi.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="score_text.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="score_text.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 13.8pt</value>
+  </data>
+  <data name="score_text.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 590</value>
+  </data>
+  <data name="score_text.Size" type="System.Drawing.Size, System.Drawing">
+    <value>218, 29</value>
+  </data>
+  <data name="score_text.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="score_text.Text" xml:space="preserve">
+    <value>Điểm: 0</value>
+  </data>
+  <data name="&gt;&gt;score_text.Name" xml:space="preserve">
+    <value>score_text</value>
+  </data>
+  <data name="&gt;&gt;score_text.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;score_text.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;score_text.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
   <metadata name="Thoi_gian_cua_ong.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
   </metadata>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="Nut_Restart.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        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
-</value>
+  <data name="life_1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 6</value>
+  </data>
+  <data name="life_1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>32, 32</value>
+  </data>
+  <data name="life_1.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>AutoSize</value>
+  </data>
+  <data name="life_1.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;life_1.Name" xml:space="preserve">
+    <value>life_1</value>
+  </data>
+  <data name="&gt;&gt;life_1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;life_1.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;life_1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="life_2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>41, 6</value>
+  </data>
+  <data name="life_2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>32, 32</value>
+  </data>
+  <data name="life_2.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>AutoSize</value>
+  </data>
+  <data name="life_2.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;life_2.Name" xml:space="preserve">
+    <value>life_2</value>
+  </data>
+  <data name="&gt;&gt;life_2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;life_2.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;life_2.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="life_3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>79, 6</value>
+  </data>
+  <data name="life_3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>32, 32</value>
+  </data>
+  <data name="life_3.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>AutoSize</value>
+  </data>
+  <data name="life_3.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;life_3.Name" xml:space="preserve">
+    <value>life_3</value>
+  </data>
+  <data name="&gt;&gt;life_3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;life_3.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;life_3.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="panel1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="panel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>710, 596</value>
+  </data>
+  <data name="panel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>116, 42</value>
+  </data>
+  <data name="panel1.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;panel1.Name" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;panel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;panel1.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="pic_enemy.Location" type="System.Drawing.Point, System.Drawing">
+    <value>695, 250</value>
+  </data>
+  <data name="pic_enemy.Size" type="System.Drawing.Size, System.Drawing">
+    <value>51, 50</value>
+  </data>
+  <data name="pic_enemy.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>StretchImage</value>
+  </data>
+  <data name="pic_enemy.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;pic_enemy.Name" xml:space="preserve">
+    <value>pic_enemy</value>
+  </data>
+  <data name="&gt;&gt;pic_enemy.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pic_enemy.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;pic_enemy.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="Game_lose.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="&gt;&gt;pic_home.Name" xml:space="preserve">
+    <value>pic_home</value>
+  </data>
+  <data name="&gt;&gt;pic_home.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pic_home.Parent" xml:space="preserve">
+    <value>Game_lose</value>
+  </data>
+  <data name="&gt;&gt;pic_home.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;pic_replay.Name" xml:space="preserve">
+    <value>pic_replay</value>
+  </data>
+  <data name="&gt;&gt;pic_replay.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pic_replay.Parent" xml:space="preserve">
+    <value>Game_lose</value>
+  </data>
+  <data name="&gt;&gt;pic_replay.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;lb_high_score_lose.Name" xml:space="preserve">
+    <value>lb_high_score_lose</value>
+  </data>
+  <data name="&gt;&gt;lb_high_score_lose.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lb_high_score_lose.Parent" xml:space="preserve">
+    <value>Game_lose</value>
+  </data>
+  <data name="&gt;&gt;lb_high_score_lose.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;label3.Name" xml:space="preserve">
+    <value>label3</value>
+  </data>
+  <data name="&gt;&gt;label3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label3.Parent" xml:space="preserve">
+    <value>Game_lose</value>
+  </data>
+  <data name="&gt;&gt;label3.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;lb_score_lose.Name" xml:space="preserve">
+    <value>lb_score_lose</value>
+  </data>
+  <data name="&gt;&gt;lb_score_lose.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lb_score_lose.Parent" xml:space="preserve">
+    <value>Game_lose</value>
+  </data>
+  <data name="&gt;&gt;lb_score_lose.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;label2.Name" xml:space="preserve">
+    <value>label2</value>
+  </data>
+  <data name="&gt;&gt;label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
+    <value>Game_lose</value>
+  </data>
+  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>Game_lose</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="Game_lose.Location" type="System.Drawing.Point, System.Drawing">
+    <value>189, 118</value>
+  </data>
+  <data name="Game_lose.Size" type="System.Drawing.Size, System.Drawing">
+    <value>481, 375</value>
+  </data>
+  <data name="Game_lose.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;Game_lose.Name" xml:space="preserve">
+    <value>Game_lose</value>
+  </data>
+  <data name="&gt;&gt;Game_lose.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Game_lose.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Game_lose.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="pic_home.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="pic_home.Location" type="System.Drawing.Point, System.Drawing">
+    <value>313, 256</value>
+  </data>
+  <data name="pic_home.Size" type="System.Drawing.Size, System.Drawing">
+    <value>96, 96</value>
+  </data>
+  <data name="pic_home.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>AutoSize</value>
+  </data>
+  <data name="pic_home.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;pic_home.Name" xml:space="preserve">
+    <value>pic_home</value>
+  </data>
+  <data name="&gt;&gt;pic_home.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pic_home.Parent" xml:space="preserve">
+    <value>Game_lose</value>
+  </data>
+  <data name="&gt;&gt;pic_home.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="pic_replay.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="pic_replay.Location" type="System.Drawing.Point, System.Drawing">
+    <value>66, 256</value>
+  </data>
+  <data name="pic_replay.Size" type="System.Drawing.Size, System.Drawing">
+    <value>96, 96</value>
+  </data>
+  <data name="pic_replay.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>AutoSize</value>
+  </data>
+  <data name="pic_replay.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;pic_replay.Name" xml:space="preserve">
+    <value>pic_replay</value>
+  </data>
+  <data name="&gt;&gt;pic_replay.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pic_replay.Parent" xml:space="preserve">
+    <value>Game_lose</value>
+  </data>
+  <data name="&gt;&gt;pic_replay.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lb_high_score_lose.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 16.2pt</value>
+  </data>
+  <data name="lb_high_score_lose.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lb_high_score_lose.Location" type="System.Drawing.Point, System.Drawing">
+    <value>194, 195</value>
+  </data>
+  <data name="lb_high_score_lose.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 50</value>
+  </data>
+  <data name="lb_high_score_lose.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="lb_high_score_lose.Text" xml:space="preserve">
+    <value>Score</value>
+  </data>
+  <data name="lb_high_score_lose.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;lb_high_score_lose.Name" xml:space="preserve">
+    <value>lb_high_score_lose</value>
+  </data>
+  <data name="&gt;&gt;lb_high_score_lose.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lb_high_score_lose.Parent" xml:space="preserve">
+    <value>Game_lose</value>
+  </data>
+  <data name="&gt;&gt;lb_high_score_lose.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="label3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 16.2pt</value>
+  </data>
+  <data name="label3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>141, 145</value>
+  </data>
+  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>268, 50</value>
+  </data>
+  <data name="label3.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>Điểm cao nhất</value>
+  </data>
+  <data name="label3.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;label3.Name" xml:space="preserve">
+    <value>label3</value>
+  </data>
+  <data name="&gt;&gt;label3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label3.Parent" xml:space="preserve">
+    <value>Game_lose</value>
+  </data>
+  <data name="&gt;&gt;label3.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="lb_score_lose.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 16.2pt</value>
+  </data>
+  <data name="lb_score_lose.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lb_score_lose.Location" type="System.Drawing.Point, System.Drawing">
+    <value>184, 107</value>
+  </data>
+  <data name="lb_score_lose.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 50</value>
+  </data>
+  <data name="lb_score_lose.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="lb_score_lose.Text" xml:space="preserve">
+    <value>Score</value>
+  </data>
+  <data name="lb_score_lose.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;lb_score_lose.Name" xml:space="preserve">
+    <value>lb_score_lose</value>
+  </data>
+  <data name="&gt;&gt;lb_score_lose.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lb_score_lose.Parent" xml:space="preserve">
+    <value>Game_lose</value>
+  </data>
+  <data name="&gt;&gt;lb_score_lose.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="label2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 16.2pt</value>
+  </data>
+  <data name="label2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>194, 68</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>143, 50</value>
+  </data>
+  <data name="label2.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Điểm</value>
+  </data>
+  <data name="label2.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;label2.Name" xml:space="preserve">
+    <value>label2</value>
+  </data>
+  <data name="&gt;&gt;label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
+    <value>Game_lose</value>
+  </data>
+  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="label1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 19.8000011pt</value>
+  </data>
+  <data name="label1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>69, 18</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>340, 50</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Thua cuộc</value>
+  </data>
+  <data name="label1.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>Game_lose</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="lb_high_score.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="lb_high_score.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 13.8pt</value>
+  </data>
+  <data name="lb_high_score.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lb_high_score.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 628</value>
+  </data>
+  <data name="lb_high_score.Size" type="System.Drawing.Size, System.Drawing">
+    <value>189, 34</value>
+  </data>
+  <data name="lb_high_score.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="lb_high_score.Text" xml:space="preserve">
+    <value>Điểm cao nhất:</value>
+  </data>
+  <data name="&gt;&gt;lb_high_score.Name" xml:space="preserve">
+    <value>lb_high_score</value>
+  </data>
+  <data name="&gt;&gt;lb_high_score.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lb_high_score.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lb_high_score.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="label_high_score_store.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="label_high_score_store.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 13.8pt</value>
+  </data>
+  <data name="label_high_score_store.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label_high_score_store.Location" type="System.Drawing.Point, System.Drawing">
+    <value>207, 628</value>
+  </data>
+  <data name="label_high_score_store.Size" type="System.Drawing.Size, System.Drawing">
+    <value>32, 34</value>
+  </data>
+  <data name="label_high_score_store.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="label_high_score_store.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;label_high_score_store.Name" xml:space="preserve">
+    <value>label_high_score_store</value>
+  </data>
+  <data name="&gt;&gt;label_high_score_store.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label_high_score_store.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label_high_score_store.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>en-US</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>8, 16</value>
+  </data>
+  <data name="$this.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>838, 770</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Flappy Bird</value>
+  </data>
+  <data name="&gt;&gt;Thoi_gian_cua_ong.Name" xml:space="preserve">
+    <value>Thoi_gian_cua_ong</value>
+  </data>
+  <data name="&gt;&gt;Thoi_gian_cua_ong.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Timer, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>Man_hinh_game</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
 </root>

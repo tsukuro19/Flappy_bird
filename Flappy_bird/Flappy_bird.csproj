@@ -96,6 +96,9 @@
     <EmbeddedResource Include="Huong_dan.resx">
       <DependentUpon>Huong_dan.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Man_hinh_game.en-US.resx">
+      <DependentUpon>Man_hinh_game.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Man_hinh_game.resx">
       <DependentUpon>Man_hinh_game.cs</DependentUpon>
     </EmbeddedResource>
@@ -109,6 +112,9 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="Return.en-US.resx">
+      <DependentUpon>Return.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Return.resx">
       <DependentUpon>Return.cs</DependentUpon>
     </EmbeddedResource>
@@ -164,6 +170,12 @@
     <None Include="Resources\icons8-back-48.png" />
     <None Include="Resources\life.png" />
     <None Include="Resources\life_white.png" />
+    <None Include="Resources\icons8-restart-48.png" />
+    <None Include="Resources\icons8-restart-96.png" />
+    <None Include="Resources\icons8-home-96.png" />
+    <None Include="Resources\ezgif-4-dae19659ba.gif" />
+    <Content Include="Resources\sfx_die.wav" />
+    <Content Include="Resources\sfx_point.wav" />
     <Content Include="Resources\sound_off.png" />
     <None Include="Resources\sound_off1.png" />
     <Content Include="Resources\sound_on.png" />

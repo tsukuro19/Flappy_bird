@@ -103,6 +103,16 @@ namespace Flappy_bird.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        public static System.Drawing.Bitmap ezgif_4_dae19659ba {
+            get {
+                object obj = ResourceManager.GetObject("ezgif-4-dae19659ba", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         public static System.Drawing.Bitmap ground {
             get {
                 object obj = ResourceManager.GetObject("ground", resourceCulture);
@@ -136,6 +146,36 @@ namespace Flappy_bird.Properties {
         public static System.Drawing.Bitmap icons8_close_48 {
             get {
                 object obj = ResourceManager.GetObject("icons8-close-48", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap icons8_home_96 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-home-96", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap icons8_restart_48 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-restart-48", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap icons8_restart_96 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-restart-96", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
