@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Flappy_bird.Model;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -13,7 +14,7 @@ namespace Flappy_bird
 {
     public partial class Man_hinh_game : Form
     {
-
+        private string playerName;
         int toc_do_ong;
         int toc_do_enemy;
         //gravity la do roi cua chim
@@ -33,6 +34,7 @@ namespace Flappy_bird
             get { return capDoGame; }
             set { capDoGame = value; }
         }
+        public string PlayerName { get; set; }
 
         public Man_hinh_game()
         {
@@ -42,7 +44,6 @@ namespace Flappy_bird
             initialSize = this.Size;
             initialLocation = this.Location;
             Game_lose.Hide();
-            label_high_score_store.Text = Properties.Settings.Default.h_score;
         }
 
         void Life_index()
@@ -62,11 +63,30 @@ namespace Flappy_bird
                 Die();
                 End_game();
                 int a = Int32.Parse(label_high_score_store.Text);
-                if (score > a)
+                if (PlayerName == "Guest" || PlayerName == "Khách")
                 {
-                    label_high_score_store.Text=score.ToString();
-                    Properties.Settings.Default.h_score = label_high_score_store.Text;
-                    Properties.Settings.Default.Save();
+                    if (score > a)
+                    {
+                        label_high_score_store.Text = score.ToString();
+                        Properties.Settings.Default.h_score = label_high_score_store.Text;
+                        Properties.Settings.Default.Save();
+                    }
+                }
+                else
+                {
+                    DB_player context = new DB_player();
+
+                    var playerRank = context.tb_ranks.FirstOrDefault(rank => rank.Player == PlayerName);
+                    if (playerRank != null)
+                    {
+                        int highestScore = playerRank.Score;
+                        if (score > highestScore)
+                        {
+                            playerRank.Score = score;
+                            context.SaveChanges();
+                            label_high_score_store.Text = playerRank.Score.ToString();
+                        }
+                    }
                 }
             }
         }
@@ -273,6 +293,25 @@ namespace Flappy_bird
             else
             {
                 Window_screen();
+            }
+            lb_name.Text = PlayerName;
+            if (PlayerName == "Guest" || PlayerName == "Khách")
+            {
+                label_high_score_store.Text = Properties.Settings.Default.h_score;
+            }
+            else
+            {
+                DB_player context = new DB_player();
+
+                var playerRank = context.tb_ranks.FirstOrDefault(rank => rank.Player == PlayerName);
+                if (playerRank != null)
+                {
+                    label_high_score_store.Text = playerRank.Score.ToString();
+                }
+                else
+                {
+                    // Nếu không tìm thấy người chơi trong cơ sở dữ liệu, có thể xử lý tương ứng ở đây
+                }
             }
         }
         // hàm này tạo để thay đổi tốc độ theo độ khó

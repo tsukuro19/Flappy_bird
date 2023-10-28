@@ -51,6 +51,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.lb_high_score = new System.Windows.Forms.Label();
             this.label_high_score_store = new System.Windows.Forms.Label();
+            this.lb_name = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pic_Bird)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pic_Nen_dat)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pic_Ong_tren)).BeginInit();
@@ -216,11 +217,18 @@
             this.label_high_score_store.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(220)))), ((int)(((byte)(148)))));
             this.label_high_score_store.Name = "label_high_score_store";
             // 
+            // lb_name
+            // 
+            resources.ApplyResources(this.lb_name, "lb_name");
+            this.lb_name.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(220)))), ((int)(((byte)(148)))));
+            this.lb_name.Name = "lb_name";
+            // 
             // Man_hinh_game
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::Flappy_bird.Properties.Resources.pxfuel;
+            this.Controls.Add(this.lb_name);
             this.Controls.Add(this.label_high_score_store);
             this.Controls.Add(this.lb_high_score);
             this.Controls.Add(this.Game_lose);
@@ -277,5 +285,6 @@
         private System.Windows.Forms.PictureBox pic_home;
         private System.Windows.Forms.Label lb_high_score;
         private System.Windows.Forms.Label label_high_score_store;
+        private System.Windows.Forms.Label lb_name;
     }
 }

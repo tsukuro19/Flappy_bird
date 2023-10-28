@@ -117,95 +117,113 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="&gt;&gt;wmp_background.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="bt_setting.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="Bat_dau_game_bt.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="Bat_dau_game_bt.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 10.8pt</value>
+  </data>
+  <data name="Bat_dau_game_bt.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="label1.Text" xml:space="preserve">
-    <value>Level</value>
+  <data name="Bat_dau_game_bt.Location" type="System.Drawing.Point, System.Drawing">
+    <value>114, 150</value>
+  </data>
+  <data name="Bat_dau_game_bt.Size" type="System.Drawing.Size, System.Drawing">
+    <value>203, 63</value>
   </data>
   <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="pic_close.TabIndex" type="System.Int32, mscorlib">
-    <value>8</value>
+  <data name="Bat_dau_game_bt.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
   </data>
-  <data name="wmp_background.TabIndex" type="System.Int32, mscorlib">
-    <value>9</value>
+  <data name="Bat_dau_game_bt.Text" xml:space="preserve">
+    <value>Bắt đầu chơi</value>
   </data>
-  <data name="pic_close.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
+  <data name="&gt;&gt;Bat_dau_game_bt.Name" xml:space="preserve">
+    <value>Bat_dau_game_bt</value>
   </data>
-  <data name="cb_language.Items" xml:space="preserve">
-    <value>Tiếng việt</value>
-  </data>
-  <data name="&gt;&gt;bt_setting.Type" xml:space="preserve">
+  <data name="&gt;&gt;Bat_dau_game_bt.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="$this.Text" xml:space="preserve">
-    <value>Flappy Bird</value>
   </data>
   <data name="&gt;&gt;Bat_dau_game_bt.Parent" xml:space="preserve">
     <value>panel_background</value>
   </data>
-  <data name="panel_background.TabIndex" type="System.Int32, mscorlib">
-    <value>10</value>
+  <data name="&gt;&gt;Bat_dau_game_bt.ZOrder" xml:space="preserve">
+    <value>6</value>
   </data>
-  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
-    <value>CenterScreen</value>
+  <data name="Huong_dan_bt.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
   </data>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="panel_background.Size" type="System.Drawing.Size, System.Drawing">
-    <value>432, 481</value>
+  <data name="Huong_dan_bt.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 10.8pt</value>
   </data>
-  <data name="&gt;&gt;Huong_dan_bt.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="&gt;&gt;pic_close.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="cb_language.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 10.2pt</value>
-  </data>
-  <data name="cbbLevel.Items" xml:space="preserve">
-    <value>Dễ </value>
-  </data>
-  <data name="&gt;&gt;cb_language.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="Bat_dau_game_bt.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="Huong_dan_bt.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
   <data name="Huong_dan_bt.Location" type="System.Drawing.Point, System.Drawing">
     <value>114, 228</value>
   </data>
-  <data name="cbbLevel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>186, 26</value>
+  <data name="Huong_dan_bt.Size" type="System.Drawing.Size, System.Drawing">
+    <value>203, 63</value>
   </data>
-  <data name="cbbLevel.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
+  <data name="Huong_dan_bt.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
   </data>
-  <data name="&gt;&gt;pic_close.Parent" xml:space="preserve">
-    <value>$this</value>
+  <data name="Huong_dan_bt.Text" xml:space="preserve">
+    <value>Hướng dẫn</value>
   </data>
-  <data name="panel_background.Location" type="System.Drawing.Point, System.Drawing">
-    <value>204, 105</value>
+  <data name="&gt;&gt;Huong_dan_bt.Name" xml:space="preserve">
+    <value>Huong_dan_bt</value>
   </data>
-  <data name="cb_language.TabIndex" type="System.Int32, mscorlib">
+  <data name="&gt;&gt;Huong_dan_bt.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Huong_dan_bt.Parent" xml:space="preserve">
+    <value>panel_background</value>
+  </data>
+  <data name="&gt;&gt;Huong_dan_bt.ZOrder" xml:space="preserve">
     <value>8</value>
+  </data>
+  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
   <data name="label1.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 10pt, style=Bold</value>
   </data>
-  <data name="&gt;&gt;panel_background.Parent" xml:space="preserve">
-    <value>$this</value>
+  <data name="label1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
-  <data name="Bat_dau_game_bt.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>71, 115</value>
   </data>
-  <data name="bt_setting.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>54, 20</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Level</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>panel_background</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="cbbLevel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt, style=Bold</value>
+  </data>
+  <data name="cbbLevel.Items" xml:space="preserve">
+    <value>Dễ </value>
   </data>
   <data name="cbbLevel.Items1" xml:space="preserve">
     <value>Trung Bình </value>
@@ -213,71 +231,95 @@
   <data name="cbbLevel.Items2" xml:space="preserve">
     <value>Khó</value>
   </data>
-  <data name="Huong_dan_bt.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
-  </data>
-  <data name="&gt;&gt;cb_language.Name" xml:space="preserve">
-    <value>cb_language</value>
-  </data>
-  <data name="&gt;&gt;pic_close.Name" xml:space="preserve">
-    <value>pic_close</value>
-  </data>
-  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>54, 20</value>
-  </data>
-  <data name="&gt;&gt;label1.Name" xml:space="preserve">
-    <value>label1</value>
-  </data>
-  <data name="cb_language.Items1" xml:space="preserve">
-    <value>English</value>
-  </data>
   <data name="cbbLevel.Location" type="System.Drawing.Point, System.Drawing">
     <value>131, 109</value>
   </data>
-  <data name="Huong_dan_bt.Text" xml:space="preserve">
-    <value>Hướng dẫn</value>
+  <data name="cbbLevel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
   </data>
-  <data name="$this.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
+  <data name="cbbLevel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>186, 26</value>
   </data>
-  <data name="cb_language.Size" type="System.Drawing.Size, System.Drawing">
-    <value>203, 28</value>
+  <data name="cbbLevel.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
   </data>
-  <data name="&gt;&gt;cb_language.ZOrder" xml:space="preserve">
-    <value>0</value>
+  <data name="&gt;&gt;cbbLevel.Name" xml:space="preserve">
+    <value>cbbLevel</value>
   </data>
-  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>71, 115</value>
+  <data name="&gt;&gt;cbbLevel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;wmp_background.Type" xml:space="preserve">
-    <value>AxWMPLib.AxWindowsMediaPlayer, AxInterop.WMPLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="Bat_dau_game_bt.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
+  <data name="&gt;&gt;cbbLevel.Parent" xml:space="preserve">
+    <value>panel_background</value>
   </data>
   <data name="&gt;&gt;cbbLevel.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>4</value>
   </data>
-  <data name="pic_close.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
-    <value>AutoSize</value>
+  <data name="bt_setting.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
   </data>
-  <data name="&gt;&gt;$this.Name" xml:space="preserve">
-    <value>Man_hinh_menu</value>
+  <data name="bt_setting.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 10.8pt</value>
   </data>
-  <data name="&gt;&gt;wmp_background.Name" xml:space="preserve">
-    <value>wmp_background</value>
+  <data name="bt_setting.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="bt_setting.Location" type="System.Drawing.Point, System.Drawing">
+    <value>115, 371</value>
+  </data>
+  <data name="bt_setting.Size" type="System.Drawing.Size, System.Drawing">
+    <value>203, 63</value>
   </data>
   <data name="bt_setting.TabIndex" type="System.Int32, mscorlib">
     <value>7</value>
   </data>
-  <data name="bt_setting.Location" type="System.Drawing.Point, System.Drawing">
-    <value>114, 297</value>
-  </data>
   <data name="bt_setting.Text" xml:space="preserve">
     <value>Cài đặt</value>
   </data>
-  <data name="cb_language.Location" type="System.Drawing.Point, System.Drawing">
-    <value>114, 367</value>
+  <data name="&gt;&gt;bt_setting.Name" xml:space="preserve">
+    <value>bt_setting</value>
+  </data>
+  <data name="&gt;&gt;bt_setting.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;bt_setting.Parent" xml:space="preserve">
+    <value>panel_background</value>
+  </data>
+  <data name="&gt;&gt;bt_setting.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="pic_close.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="pic_close.Location" type="System.Drawing.Point, System.Drawing">
+    <value>778, 12</value>
+  </data>
+  <data name="pic_close.Size" type="System.Drawing.Size, System.Drawing">
+    <value>48, 48</value>
+  </data>
+  <data name="pic_close.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>AutoSize</value>
+  </data>
+  <data name="pic_close.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;pic_close.Name" xml:space="preserve">
+    <value>pic_close</value>
+  </data>
+  <data name="&gt;&gt;pic_close.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pic_close.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;pic_close.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="wmp_background.Enabled" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="wmp_background.Location" type="System.Drawing.Point, System.Drawing">
+    <value>190, 662</value>
   </data>
   <data name="wmp_background.OcxState" mimetype="application/x-microsoft.net.object.binary.base64">
     <value>
@@ -290,145 +332,199 @@
         AAAL
 </value>
   </data>
-  <data name="Bat_dau_game_bt.Text" xml:space="preserve">
-    <value>Bắt đầu chơi</value>
-  </data>
   <data name="wmp_background.Size" type="System.Drawing.Size, System.Drawing">
     <value>75, 23</value>
   </data>
-  <data name="Huong_dan_bt.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
+  <data name="wmp_background.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
   </data>
-  <data name="Bat_dau_game_bt.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 10.8pt</value>
+  <data name="&gt;&gt;wmp_background.Name" xml:space="preserve">
+    <value>wmp_background</value>
   </data>
-  <data name="&gt;&gt;bt_setting.Name" xml:space="preserve">
-    <value>bt_setting</value>
-  </data>
-  <data name="wmp_background.Enabled" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>838, 770</value>
-  </data>
-  <data name="cb_language.Text" xml:space="preserve">
-    <value>Chọn ngôn ngữ</value>
-  </data>
-  <data name="&gt;&gt;label1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;cbbLevel.Name" xml:space="preserve">
-    <value>cbbLevel</value>
-  </data>
-  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>8, 16</value>
-  </data>
-  <data name="&gt;&gt;cb_language.Parent" xml:space="preserve">
-    <value>panel_background</value>
-  </data>
-  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;bt_setting.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="&gt;&gt;Bat_dau_game_bt.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;Huong_dan_bt.Parent" xml:space="preserve">
-    <value>panel_background</value>
-  </data>
-  <data name="&gt;&gt;pic_close.Type" xml:space="preserve">
-    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="label1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="bt_setting.Size" type="System.Drawing.Size, System.Drawing">
-    <value>203, 63</value>
-  </data>
-  <data name="&gt;&gt;panel_background.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="cbbLevel.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 9pt, style=Bold</value>
-  </data>
-  <data name="label1.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="bt_setting.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 10.8pt</value>
-  </data>
-  <data name="cbbLevel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 2, 3, 2</value>
-  </data>
-  <data name="&gt;&gt;bt_setting.Parent" xml:space="preserve">
-    <value>panel_background</value>
-  </data>
-  <data name="&gt;&gt;Bat_dau_game_bt.Name" xml:space="preserve">
-    <value>Bat_dau_game_bt</value>
-  </data>
-  <data name="wmp_background.Location" type="System.Drawing.Point, System.Drawing">
-    <value>279, 592</value>
-  </data>
-  <data name="&gt;&gt;cbbLevel.Parent" xml:space="preserve">
-    <value>panel_background</value>
-  </data>
-  <data name="Huong_dan_bt.Size" type="System.Drawing.Size, System.Drawing">
-    <value>203, 63</value>
-  </data>
-  <data name="Huong_dan_bt.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 10.8pt</value>
-  </data>
-  <data name="Huong_dan_bt.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="Bat_dau_game_bt.Location" type="System.Drawing.Point, System.Drawing">
-    <value>114, 150</value>
-  </data>
-  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
-    <value>panel_background</value>
-  </data>
-  <data name="&gt;&gt;cbbLevel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;Huong_dan_bt.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="pic_close.Size" type="System.Drawing.Size, System.Drawing">
-    <value>48, 48</value>
-  </data>
-  <data name="&gt;&gt;$this.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="pic_close.Location" type="System.Drawing.Point, System.Drawing">
-    <value>778, 12</value>
-  </data>
-  <data name="&gt;&gt;Bat_dau_game_bt.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;panel_background.Name" xml:space="preserve">
-    <value>panel_background</value>
-  </data>
-  <data name="$this.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
-    <value>Stretch</value>
-  </data>
-  <data name="Bat_dau_game_bt.Size" type="System.Drawing.Size, System.Drawing">
-    <value>203, 63</value>
+  <data name="&gt;&gt;wmp_background.Type" xml:space="preserve">
+    <value>AxWMPLib.AxWindowsMediaPlayer, AxInterop.WMPLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="&gt;&gt;wmp_background.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
+  <data name="&gt;&gt;wmp_background.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="cb_player.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt, style=Bold</value>
+  </data>
+  <data name="cb_player.Items" xml:space="preserve">
+    <value>Khách</value>
+  </data>
+  <data name="cb_player.Items1" xml:space="preserve">
+    <value>Tạo tên người chơi</value>
+  </data>
+  <data name="cb_player.Location" type="System.Drawing.Point, System.Drawing">
+    <value>131, 79</value>
+  </data>
+  <data name="cb_player.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
+  <data name="cb_player.Size" type="System.Drawing.Size, System.Drawing">
+    <value>186, 26</value>
+  </data>
+  <data name="cb_player.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;cb_player.Name" xml:space="preserve">
+    <value>cb_player</value>
+  </data>
+  <data name="&gt;&gt;cb_player.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cb_player.Parent" xml:space="preserve">
+    <value>panel_background</value>
+  </data>
+  <data name="&gt;&gt;cb_player.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lb_player.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lb_player.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 10pt, style=Bold</value>
+  </data>
+  <data name="lb_player.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lb_player.Location" type="System.Drawing.Point, System.Drawing">
+    <value>27, 81</value>
+  </data>
+  <data name="lb_player.Size" type="System.Drawing.Size, System.Drawing">
+    <value>98, 20</value>
+  </data>
+  <data name="lb_player.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="lb_player.Text" xml:space="preserve">
+    <value>Người chơi</value>
+  </data>
+  <data name="&gt;&gt;lb_player.Name" xml:space="preserve">
+    <value>lb_player</value>
+  </data>
+  <data name="&gt;&gt;lb_player.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lb_player.Parent" xml:space="preserve">
+    <value>panel_background</value>
+  </data>
+  <data name="&gt;&gt;lb_player.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="btn_rank.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btn_rank.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 10.8pt</value>
+  </data>
+  <data name="btn_rank.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btn_rank.Location" type="System.Drawing.Point, System.Drawing">
+    <value>114, 302</value>
+  </data>
+  <data name="btn_rank.Size" type="System.Drawing.Size, System.Drawing">
+    <value>203, 63</value>
+  </data>
+  <data name="btn_rank.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="btn_rank.Text" xml:space="preserve">
+    <value>Bảng xếp hạng</value>
+  </data>
+  <data name="&gt;&gt;btn_rank.Name" xml:space="preserve">
+    <value>btn_rank</value>
+  </data>
+  <data name="&gt;&gt;btn_rank.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btn_rank.Parent" xml:space="preserve">
+    <value>panel_background</value>
+  </data>
+  <data name="&gt;&gt;btn_rank.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="cb_language.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 10.2pt</value>
+  </data>
+  <data name="cb_language.Items" xml:space="preserve">
+    <value>Tiếng việt</value>
+  </data>
+  <data name="cb_language.Items1" xml:space="preserve">
+    <value>English</value>
+  </data>
+  <data name="cb_language.Location" type="System.Drawing.Point, System.Drawing">
+    <value>114, 440</value>
+  </data>
+  <data name="cb_language.Size" type="System.Drawing.Size, System.Drawing">
+    <value>203, 28</value>
+  </data>
+  <data name="cb_language.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="cb_language.Text" xml:space="preserve">
+    <value>Chọn ngôn ngữ</value>
+  </data>
+  <data name="&gt;&gt;cb_language.Name" xml:space="preserve">
+    <value>cb_language</value>
+  </data>
+  <data name="&gt;&gt;cb_language.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cb_language.Parent" xml:space="preserve">
+    <value>panel_background</value>
+  </data>
+  <data name="&gt;&gt;cb_language.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="panel_background.Location" type="System.Drawing.Point, System.Drawing">
+    <value>204, 105</value>
+  </data>
+  <data name="panel_background.Size" type="System.Drawing.Size, System.Drawing">
+    <value>432, 525</value>
+  </data>
+  <data name="panel_background.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;panel_background.Name" xml:space="preserve">
+    <value>panel_background</value>
+  </data>
   <data name="&gt;&gt;panel_background.Type" xml:space="preserve">
     <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;Huong_dan_bt.Name" xml:space="preserve">
-    <value>Huong_dan_bt</value>
+  <data name="&gt;&gt;panel_background.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;panel_background.ZOrder" xml:space="preserve">
+    <value>0</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>8, 16</value>
+  </data>
+  <data name="$this.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>838, 770</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Flappy Bird</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>Man_hinh_menu</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
 </root>

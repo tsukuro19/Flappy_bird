@@ -117,29 +117,16 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="score_text.Text" xml:space="preserve">
-    <value>Score: 0</value>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Rank</value>
   </data>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>162, 145</value>
+  <data name="Player.HeaderText" xml:space="preserve">
+    <value>Player</value>
   </data>
-  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>228, 50</value>
-  </data>
-  <data name="label3.Text" xml:space="preserve">
-    <value>High Score</value>
-  </data>
-  <data name="label2.Text" xml:space="preserve">
+  <data name="Score.HeaderText" xml:space="preserve">
     <value>Score</value>
   </data>
-  <data name="label1.Text" xml:space="preserve">
-    <value>Game Over</value>
-  </data>
-  <data name="lb_high_score.Size" type="System.Drawing.Size, System.Drawing">
-    <value>177, 34</value>
-  </data>
-  <data name="lb_high_score.Text" xml:space="preserve">
-    <value>High score: </value>
+  <data name="Dell_bt.Text" xml:space="preserve">
+    <value>Delete</value>
   </data>
 </root>

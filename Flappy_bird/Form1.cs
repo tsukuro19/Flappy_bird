@@ -1,4 +1,5 @@
 
+using Flappy_bird.Model;
 using Flappy_bird.Properties;
 using System;
 using System.Collections.Generic;
@@ -16,6 +17,7 @@ namespace Flappy_bird
 {
     public partial class Man_hinh_menu : Form
     {
+        private List<string> players;
         private int capDoGame;
         private string playerName;
         private int player = 1;
@@ -100,12 +102,15 @@ namespace Flappy_bird
         public int score { get; private set; }
 
         //Ham nay giup load form man hinh tro choi
+        public string SelectedPlayerName { get; private set; }
+
         private void Load_game(object sender, EventArgs e)
         {
             Button_click();
             wplayer.controls.pause();
             Man_hinh_game man_Hinh_Game = new Man_hinh_game();
             man_Hinh_Game.CapDoGame = capDoGame;
+            man_Hinh_Game.PlayerName = SelectedPlayerName; // Truyền tên người chơi đã chọn
             man_Hinh_Game.Show();
             this.Hide();
         }
@@ -151,6 +156,13 @@ namespace Flappy_bird
             wmp_background.Hide();
         }
 
+        private void FillRankCombobox(List<Flappy_bird.Model.tb_rank> list_rank)
+        {
+            this.cb_player.DataSource = list_rank;
+            this.cb_player.DisplayMember = "Player";
+            this.cb_player.ValueMember = "ID";
+        }
+
         private void Man_hinh_menu_Load(object sender, EventArgs e)
         {
             if (Setting.IsFullScreen)
@@ -161,6 +173,14 @@ namespace Flappy_bird
             {
                 Window_screen();
             }
+            DB_player context = new DB_player();
+            List<Flappy_bird.Model.tb_rank> list_rank = context.tb_ranks.ToList();
+
+            // Lấy danh sách tên người chơi từ cơ sở dữ liệu
+            List<string> playerNames = list_rank.Select(rank => rank.Player).ToList();
+
+            // Thêm danh sách tên người chơi vào collection hiện có của ComboBox
+            cb_player.Items.AddRange(playerNames.ToArray());
         }
 
         // hàm này dùng để lưu mức độ trò chơi khi đc người dùng chọn 
@@ -220,6 +240,26 @@ namespace Flappy_bird
         private void bt_setting_MouseLeave(object sender, EventArgs e)
         {
             bt_setting.BackColor = Color.Turquoise;
+        }
+
+        private void btn_rank_Click(object sender, EventArgs e)
+        {
+            Rank_form rank=new Rank_form();
+            rank.Show();
+        }
+
+        private void cb_player_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if(cb_player.SelectedItem.ToString()== "Tạo tên người chơi" || cb_player.SelectedItem.ToString()== "Create player name")
+            {
+                Name_player name=new Name_player();
+                name.Show();
+            }
+            else
+            {
+                ComboBox comboBox = (ComboBox)sender;
+        SelectedPlayerName = comboBox.SelectedItem.ToString();
+            }
         }
     }
 }

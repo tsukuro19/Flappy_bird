@@ -37,6 +37,9 @@
             this.pic_close = new System.Windows.Forms.PictureBox();
             this.wmp_background = new AxWMPLib.AxWindowsMediaPlayer();
             this.panel_background = new System.Windows.Forms.Panel();
+            this.cb_player = new System.Windows.Forms.ComboBox();
+            this.lb_player = new System.Windows.Forms.Label();
+            this.btn_rank = new System.Windows.Forms.Button();
             this.cb_language = new System.Windows.Forms.ComboBox();
             ((System.ComponentModel.ISupportInitialize)(this.pic_close)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.wmp_background)).BeginInit();
@@ -108,6 +111,9 @@
             // panel_background
             // 
             this.panel_background.BackColor = System.Drawing.Color.Transparent;
+            this.panel_background.Controls.Add(this.cb_player);
+            this.panel_background.Controls.Add(this.lb_player);
+            this.panel_background.Controls.Add(this.btn_rank);
             this.panel_background.Controls.Add(this.cb_language);
             this.panel_background.Controls.Add(this.cbbLevel);
             this.panel_background.Controls.Add(this.label1);
@@ -116,6 +122,30 @@
             this.panel_background.Controls.Add(this.Huong_dan_bt);
             resources.ApplyResources(this.panel_background, "panel_background");
             this.panel_background.Name = "panel_background";
+            // 
+            // cb_player
+            // 
+            resources.ApplyResources(this.cb_player, "cb_player");
+            this.cb_player.FormattingEnabled = true;
+            this.cb_player.Items.AddRange(new object[] {
+            resources.GetString("cb_player.Items"),
+            resources.GetString("cb_player.Items1")});
+            this.cb_player.Name = "cb_player";
+            this.cb_player.SelectedIndexChanged += new System.EventHandler(this.cb_player_SelectedIndexChanged);
+            // 
+            // lb_player
+            // 
+            resources.ApplyResources(this.lb_player, "lb_player");
+            this.lb_player.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
+            this.lb_player.Name = "lb_player";
+            // 
+            // btn_rank
+            // 
+            this.btn_rank.BackColor = System.Drawing.Color.Turquoise;
+            resources.ApplyResources(this.btn_rank, "btn_rank");
+            this.btn_rank.Name = "btn_rank";
+            this.btn_rank.UseVisualStyleBackColor = false;
+            this.btn_rank.Click += new System.EventHandler(this.btn_rank_Click);
             // 
             // cb_language
             // 
@@ -158,6 +188,9 @@
         private AxWMPLib.AxWindowsMediaPlayer wmp_background;
         private System.Windows.Forms.Panel panel_background;
         private System.Windows.Forms.ComboBox cb_language;
+        private System.Windows.Forms.Label lb_player;
+        private System.Windows.Forms.Button btn_rank;
+        public System.Windows.Forms.ComboBox cb_player;
     }
 }
 
